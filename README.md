@@ -16,6 +16,7 @@ To detect if an audio file is using GPT to fake a voice, run the following comma
 ```python detect_voice.py --input_file /path/to/audio/file.wav```
 <br>
 To detect if an image file is using GPT to fake a face, run the following command:
+<br>
 ```python detect_image.py --input_file /path/to/image/file.jpg```
 
 # Contributing
@@ -29,10 +30,10 @@ Make changes and commit: `git commit -m "Added new feature"`
 Push to the branch: `git push origin new-feature`
 Create a pull request.
 
-#License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+# Acknowledgments
 
 This project was inspired by the research found here(https://ericmitchell.ai/detectgpt/)
