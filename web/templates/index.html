@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Detection</title>
+</head>
+<body>
+    <h1>Voice Detection: Human or AI</h1>
+    <form action="/detect" method="post" enctype="multipart/form-data">
+        <input type="file" name="audio_file" accept="audio/*" required>
+        <button type="submit">Detect</button>
+    </form>
+    {% if result %}
+    <h2>Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
