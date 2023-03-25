@@ -12,7 +12,9 @@ Install the required packages: pip install -r requirements.txt
 # Usage
 
 To detect if an audio file is using GPT to fake a voice, run the following command:
+<br>
 ```python detect_voice.py --input_file /path/to/audio/file.wav```
+<br>
 To detect if an image file is using GPT to fake a face, run the following command:
 ```python detect_image.py --input_file /path/to/image/file.jpg```
 
