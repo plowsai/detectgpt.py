@@ -1,0 +1,1 @@
+# detectgpt.py
